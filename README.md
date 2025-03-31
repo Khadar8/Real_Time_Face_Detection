@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Face Detection App
 
 This web-based Face Detection application uses the face-api.js library to perform real-time face detection, age and gender prediction, and facial landmarks and expressions detection. The app allows users to start and stop the camera feed, capture an image, and display the detected face along with face landmarks, expressions, and other relevant information.
@@ -5,25 +6,80 @@ This web-based Face Detection application uses the face-api.js library to perfor
 Features
 
 Real-time Face Detection: Detect faces from the live camera feed.
+=======
+# Real-Time Face Detection
 
-Age and Gender Prediction: Predict the age and gender of the detected faces.
+Real-Time Face Detection is a web-based application that utilizes **Face API** to detect faces, facial landmarks, expressions, age, and gender in real-time using a webcam. Users can capture images with detected overlays and save them.
+>>>>>>> dbaff1f (README file provides understanding of the project)
 
-Facial Landmarks: Show the landmarks for each detected face (eyes, nose, mouth, etc.).
+## Features
+- **Live Face Detection**: Detects multiple faces with real-time tracking.
+- **Facial Landmark Detection**: Identifies key points on the face.
+- **Expression Recognition**: Detects emotions such as happy, sad, and surprised.
+- **Age & Gender Detection**: Estimates age and predicts gender with confidence percentage.
+- **Image Capture**: Saves the image along with detected overlays.
+- **Start & Stop Camera**: Toggle webcam feed as needed.
 
-Facial Expressions: Display facial expressions such as happy, sad, surprised, etc.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Real_Time_Face_Detection.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Real_Time_Face_Detection
+   ```
+3. Install dependencies (if required):
+   ```bash
+   npm install
+   ```
 
-Capture Image: Capture an image of the detected face along with the detection lines and store it.
+## Usage
+1. Start a local server (e.g., using Live Server in VS Code or Python's HTTP server):
+   ```bash
+   npx live-server
+   ```
+   or
+   ```bash
+   python -m http.server 5500
+   ```
+2. Open `index.html` in a web browser.
+3. Click **Start Camera** to begin detection.
+4. Click **Capture Image** to save a snapshot with overlays.
+5. Click **Stop Camera** to end the session.
 
-Responsive Layout: The page is scrollable, and captured images are shown below the camera feed.
+## Project Structure
+```
+Real_Time_Face_Detection/
+│-- index.html          # Main HTML file
+│-- script.js           # JavaScript logic for face detection
+│-- face-api.min.js     # Face API library
+│-- models/             # Pre-trained models for detection
+│-- README.md           # Project documentation
+```
 
+## Dependencies
+- **Face API.js**
+- **JavaScript (ES6)**
+- **HTML & CSS**
+
+<<<<<<< HEAD
 Technologies Used
 
 HTML: For creating the structure of the web page.
+=======
+## Notes
+- Ensure the `models/` directory contains pre-trained models.
+- The application works best in **Google Chrome** and **Firefox**.
+>>>>>>> dbaff1f (README file provides understanding of the project)
 
-CSS: For styling and layout of the page.
+## License
+This project is open-source and available under the **MIT License**.
 
-JavaScript: For implementing the camera functionality and face detection logic using face-api.js.
+## Author
+[Khadhar Syed](https://github.com/Khadar8)
 
+<<<<<<< HEAD
 face-api.js: A JavaScript library that provides pre-trained models for face detection, age and gender prediction, facial landmarks, and expressions.
 
 Setup and Installation
@@ -83,3 +139,5 @@ Feel free to fork the project and create pull requests for any improvements or b
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+>>>>>>> dbaff1f (README file provides understanding of the project)
