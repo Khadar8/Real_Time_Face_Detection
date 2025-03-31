@@ -1,7 +1,9 @@
 Face Detection App
+
 This web-based Face Detection application uses the face-api.js library to perform real-time face detection, age and gender prediction, and facial landmarks and expressions detection. The app allows users to start and stop the camera feed, capture an image, and display the detected face along with face landmarks, expressions, and other relevant information.
 
 Features
+
 Real-time Face Detection: Detect faces from the live camera feed.
 
 Age and Gender Prediction: Predict the age and gender of the detected faces.
@@ -15,6 +17,7 @@ Capture Image: Capture an image of the detected face along with the detection li
 Responsive Layout: The page is scrollable, and captured images are shown below the camera feed.
 
 Technologies Used
+
 HTML: For creating the structure of the web page.
 
 CSS: For styling and layout of the page.
@@ -24,9 +27,11 @@ JavaScript: For implementing the camera functionality and face detection logic u
 face-api.js: A JavaScript library that provides pre-trained models for face detection, age and gender prediction, facial landmarks, and expressions.
 
 Setup and Installation
+
 To run this app locally, follow these steps:
 
 Prerequisites
+
 A modern web browser (Chrome, Firefox, Edge, etc.).
 
 A local web server for serving the HTML files. You can use:
@@ -36,13 +41,13 @@ Live Server extension for VS Code.
 Alternatively, you can use any server like http-server in Node.js or python -m SimpleHTTPServer if you're using Python.
 
 Steps
+
 Clone or download the repository to your local machine.
 
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/face-detection-app.git
+
 cd face-detection-app
+
 Open the folder in your code editor (e.g., VS Code).
 
 Install the required models from face-api.js by downloading them into the models directory. You can find the models here:
